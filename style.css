@@ -578,3 +578,18 @@ body.dark-mode .footer-profile-text p {
         text-align: center;
     }
 }
+/* Event Card */
+.event-card {
+    background-color: var(--card-bg);
+    border-radius: 16px;
+    padding: 20px;
+    text-decoration: none;
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.event-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.07);
+}
