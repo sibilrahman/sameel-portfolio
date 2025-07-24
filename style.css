@@ -609,6 +609,11 @@ body.dark-mode .footer-profile-text p {
         align-items: center;
     }
 
+    /* === THIS IS THE ADDED RULE TO CENTER THE ICONS === */
+    .social-links {
+        justify-content: center;
+    }
+
     .right-column {
         padding: 0 0 40px 0;
     }
